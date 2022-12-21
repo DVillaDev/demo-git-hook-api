@@ -15,7 +15,7 @@ public class HelloWorldController {
     }
 
     @GetMapping
-    @RequestMapping("/bye")
+    @RequestMapping("/byebye")
     public String byeWorld(){
         return "Bye world test!";
     }
