@@ -8,7 +8,7 @@ public class DemoTest {
 
     @Test
     public void testSimple() {
-        assertEquals(false, false);
+        assertEquals(true, true);
     }
 
 }
