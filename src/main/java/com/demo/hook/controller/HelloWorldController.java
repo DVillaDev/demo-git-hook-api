@@ -11,7 +11,7 @@ public class HelloWorldController {
 
     @GetMapping
     public String helloWorld(){
-        return "Hello my world, prueba clone!";
+        return "Hello my world";
     }
 
     @GetMapping
