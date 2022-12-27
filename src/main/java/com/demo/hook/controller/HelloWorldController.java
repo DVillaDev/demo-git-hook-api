@@ -11,7 +11,7 @@ public class HelloWorldController {
 
     @GetMapping
     public String helloWorld(){
-        return "Hello my beautiful world!!!!";
+        return "Hello my beautiful new world!!!!";
     }
 
     @GetMapping
