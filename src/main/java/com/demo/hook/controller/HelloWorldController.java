@@ -11,13 +11,13 @@ public class HelloWorldController {
 
     @GetMapping
     public String helloWorld(){
-        return "Hello my world!";
+        return "Hello my fantastic world!";
     }
 
     @GetMapping
     @RequestMapping("/bye")
     public String byeWorld(){
-        return "Bye world!";
+        return "Bye world!!!";
     }
 
 }
